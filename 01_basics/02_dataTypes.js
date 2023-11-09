@@ -20,5 +20,5 @@ let isLoggedIn = false;
 
 // object
 
-console.log(typeof object); // output is undefined
+console.log(typeof undefined); // output is undefined
 console.log(typeof null); // output is object
