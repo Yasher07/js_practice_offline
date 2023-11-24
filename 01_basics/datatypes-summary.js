@@ -31,3 +31,27 @@ function myFunction() {
 }
 
 console.log(typeof myFunction);
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primtive), Heap memory (Non-Primitive)
+
+let myYoutubeName = "yasherarafath";
+
+let anothername = myYoutubeName;
+anothername = "AFD";
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne = {
+  email: "07yasher@gmail.com",
+  upi: "yasher@ybl",
+};
+
+let userTwo = userOne;
+
+userTwo.emil = "arafath@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
